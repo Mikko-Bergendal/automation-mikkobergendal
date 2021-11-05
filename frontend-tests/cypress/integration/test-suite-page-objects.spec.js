@@ -36,7 +36,7 @@ describe('test suite1', function(){
         indexFuncs.performValidLogin(cy, 'tester01', 'GteteqbQQgSr88SwNExUQv2ydb7xuf8c', 'Tester Hotel Overview')
         dashBoardFuncs.viewClients(cy, 'Clients')
         clientFuncs.goToCreate(cy, 'New Client')
-        createClientFuncs.createClient(cy, 'Mikko', 'MB@mail.se', '070123456', 'Clients')
+        createClientFuncs.createClient(cy, 'Mikko', 'MB@mail.se', '070123456', 'Mikko' & 'Create Client')
         dashBoardFuncs.performLogout(cy, 'Login')
     })
 })
